@@ -28,6 +28,7 @@ for line in f:
   adshtml.write(line)
 
 ads = []
+#ads.append(line)
 
 for line in adshtml:
   if '<li' in line:
